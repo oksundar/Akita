@@ -1,0 +1,196 @@
+body{
+   margin:0px;   
+}
+
+#content{
+    width:100%;
+	min-width:1030px;
+    height:430px;
+	margin-top:60px;
+	background-color: #333;
+}
+
+#mainContent {
+    height: 100%;
+    width: 1080px;
+	display:inline-block;
+}
+
+#header{
+    background:url('assets/sendori_logo_feedback.png') no-repeat;
+    width:276px;
+    height:63px;
+    float:left;
+}
+
+#mainText{
+    width:600px;
+    height:100%; 
+    position:relative;
+	*float:left;
+}
+
+#feedbackImg{
+    background:url('assets/nav_active.jpg') no-repeat;
+    width:276px;
+    height:63px;
+    float:left;
+}
+#suggestion{
+    height:350px;
+    width:600px;
+    float:none;
+    position:relative;
+    padding-top:30px;
+}
+
+#suggestion1{
+    height:350px;
+    width:600px;
+    float:none;
+    position:relative;
+    padding-top:100px;
+}
+
+#alert{
+    -moz-border-radius-bottomleft:8px;
+    -moz-border-radius-bottomright:8px;
+    -moz-border-radius-topright:8px;
+    -moz-border-radius-topleft:8px;
+    background:orange no-repeat;
+    width:332px;
+    height:54px;
+    float:left;
+    position:relative;
+    font-size:11px;
+    color:black;
+}
+#information{
+    position:relative;
+    padding-top:12px;
+}
+.feedbackTextArea{
+    -moz-border-radius-bottomleft:8px;
+    -moz-border-radius-bottomright:8px;
+    -moz-border-radius-topright:8px;
+    -moz-border-radius-topleft:8px;
+    
+}
+
+#feedbackArea{
+	width:100%;
+	height:30px;
+}
+
+#rightCorner{
+	background:url('assets/box_right.png') no-repeat;
+	float:left;
+	width:16px;
+	height:56px;	
+}
+
+#leftCorner{
+	background:url('assets/box_left.png') no-repeat;
+	float:left;
+	width:16px;
+	height:56px;	
+}
+
+#thankuText{
+	height:56px;
+	width:600px;
+	margin-top:25px;
+}
+
+#thtxt{
+	width:568px;	
+	position:relative;	
+	vertical-align:middle;
+	font:20px Helvetica;
+	float:left;
+	color:#F60;	
+	line-height:56px;	
+	background:url('assets/box_bg.png') repeat-x;
+}
+#txt1{
+	font:14px Helvetica;	
+	color: #CCC;
+	text-align:left;
+}
+#check{
+	font:12px Helvetica;	
+	color: #CCC;
+	text-align:left;
+	padding-top:20px;
+}
+
+#check input{
+	float:left;
+}
+
+#checkboxText{
+	margin-left:25px;
+}
+
+#alert{
+	top:20px;
+	background:url('assets/btn_alert.png') no-repeat;
+	width:366px;
+	height:86px;
+}
+
+#submitButton{
+	float:right;
+	width:147px;
+	height:41px;
+	background: url('assets/btn_feedback.png') no-repeat;
+	position:relative;
+	top:20px;
+	cursor:pointer;
+}
+
+#suggestionText{
+	font:14px Helvetica;	
+	color: #CCC;
+	text-align:left;	
+	word-spacing:1px;
+}
+
+
+#footNote{
+	font-family:'Arial';
+	font-size:11px;
+	color:#aaa;
+	position:relative;
+	top:35px;
+	padding-bottom:8px;
+}
+
+#footNote a{
+	text-decoration:none;
+	color:#aaa;
+	cursor:pointer;
+}
+
+#feedbackIcon {
+    background: url("assets/icon_sad.png") no-repeat;
+    float: left;
+    height: 221px;
+    position: relative;
+    margin-top: 100px;
+    width: 230px;
+}
+
+#suggestionIcon{
+	background: url("assets/icon_light.png") no-repeat;
+    float: left;
+    height: 293px;
+    position: relative;
+    margin-top: 60px;
+    width: 230px;
+}
+
+
+
+
+

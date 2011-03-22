@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="SHORTCUT ICON" href="favicon.ico">
+    <title>Sendori Toolbar</title>
+    <script type="text/javascript">
+      var contents = new Array()
+        {
+            contents[0] = new Array("http://www.match.com/", "Match.com", "assets/favicon.png", "#1 Search Site: Bing.com - Site Description.");
+            contents[1] = new Array("http://www.bing.com/", "Bing.com", "", "#1 Search Site: Bing.com - Site Description.");
+            contents[2] = new Array("http://www.yahoo.com/", "Yahoo.com", "", "#1 Search Site: yahoo.com - Site Description.");
+            contents[3] = new Array("http://www.microsoft.com/", "Microsoft.com", "assets/info_icon.png", "#1 Search Site: microsoft.com - Site Description.");
+            contents[4] = new Array("http://www.eharmony.com/", "eharmony.com", "assets/close_button.png", "#1 Dating Site: eharmony.com - Site Description.");
+            contents[5] = new Array("http://www.ask.com/", "Ask.com", "", "#1 Search Site: Ask.com - Site Description.");
+        }
+    </script>
+    <script type="text/javascript" src="sendori.js">
+    </script>
+    <link href="sendori.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body onresize="adjustHeight()">
+<!--------------------- BAR ------------------------>
+<div id="bar">
+    <!--------------------- SENDORI LOGO ------------------------>
+    <div id="sendori" class="tt" onclick="window.location.href='http://www.sendori.com'"><img src="assets/sendori.png"/></div>
+
+    <!--------------------- DIVIDER ------------------------>
+    <div id="divider"></div>
+
+    <!--------------------- ERROR MESSAGE ------------------------>
+    <div id="error"><p>Corrected your misspelling.</p></div>
+
+    <!--------------------- INFO RED ------------------------>
+    <div id="info_orange" onmouseover="mopen(['alertIcon','alertMessage']);" onmouseout="mclose()" class="tt"></div>
+    <div id="alertIcon"></div>
+    <div id="alertMessage" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">This is a dynamic alert message
+    </div>
+
+    <!--------------------- LABEL ------------------------>
+    <div id="label"><p>Related sites:</p></div>
+
+    <!--------------------- LEFT/RIGHT BUTTON ------------------------>
+    <div id="button">
+        <div id='navlistLeft' class="tt" onclick="forwardToPrevious();"></div>
+        <div id='navlistRight' class="tt" onclick="forwardToNext();"></div>
+    </div>
+    <!--------------------- FAVICON ------------------------>
+    <div id="favicon" class="tt"></div>
+
+    <!--------------------- BRAND MESSAGE ------------------------>
+    <div id="brand" onclick="forwardToNext()"><p></p></div>
+
+    <!--------------------- TITLE MESSAGE ------------------------>
+    <div id="title" onclick="forwardToNext()"><p></p></div>
+
+    <!--------------------- CLOSE ------------------------>
+    <div id="close" class="tc" onclick="window.location.href=document.getElementById('iFrameId').src">
+        <span class="tooltip middle">Close</span>
+    </div>
+
+    <!--------------------- FEEDBACK ------------------------>
+    <div id="feedbackButton" onclick="mopen(['menu','infoIcon']);" class="tf"><span
+            class="tooltip middle">Feedback</span></div>
+    <ul id="feedback">
+        <li>
+            <div id="infoIcon"></div>
+            <div id="menu" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" class="tt">
+                <a class="link1" onclick="document.getElementById('iFrameId').src='feedback.html'">Wrong site? Report this error</a>
+                <a class="link2" onclick="document.getElementById('iFrameId').src='suggestion.html'">Suggest an idea</a>
+            </div>
+        </li>
+    </ul>
+</div>
+</div>
+<div id="frameDiv">
+    <iframe id="iFrameId" name="iFrameId" src="http://www.eharmony.com" scrolling="yes" align="center" frameborder="0"
+            height="550px">
+    </iframe>
+</div>
+<script type="text/javascript">
+    initialize();
+    adjustHeight();
+</script>
+</body>
+</html>

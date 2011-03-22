@@ -1,0 +1,156 @@
+#content{
+	width:952px;	
+	height:100%;
+
+}
+
+#header{
+	background:url('assets/sendori_logo_new.png') no-repeat scroll 0 0 transparent;
+	width:276px;
+	height:63px;
+	float:left;
+	padding-bottom:5px;
+	margin-left: 10px;
+    	margin-top: 10px; 
+}
+
+.centerContent{
+	clear:both;
+	width:952px;	
+	height:400px;
+	background-color: #2e2e2e;
+	top:10px;
+	position:relative;	
+}
+
+#navTab{
+	width:953px;	
+	height:101px;
+	margin-top:8px;
+}
+
+#navTab div.tabs{
+	background-color: #CCCCCC;
+	height:100px;
+	width:236px;
+	float:left;
+	cursor:pointer;	
+	vertical-align:middle;
+	border:1px solid #000;
+	line-height:100px;
+	font-family:arial;
+}
+
+#navTab div.tabs:hover{
+	background:url('assets/nav_active.jpg') no-repeat;
+	width:238px;
+	height:101px;	
+	line-height:101px;
+	border:none;
+}
+
+#footerBar{
+	/*background:url('assets/banner.png') no-repeat;
+	width:952px;	
+	height:90px;*/
+	position:relative;
+	top:60px;
+}
+
+.mainText{
+	width:50%;
+	float:left;
+	text-align:left;
+	position:relative;
+	top:110px;
+	padding-left:40px;
+}
+
+#mainTextDownload{
+	width:912px;
+	text-align:left;
+	position:relative;
+	padding-left:40px;
+	font-family:arial;
+}
+
+#headingNavigation {	
+	font-family:helvetica;
+	font-size:48px;
+	color:#FF9933;
+	font-weight:bold;
+	line-height:70px;
+}
+
+#subHeadingNavigation {
+	font-family:helvetica;
+	font-size:21px;
+	color:#999;
+	/*font-weight:bold;*/
+	word-spacing:3px;
+	padding:10px 2px 2px;
+	width:460px;
+	line-height:40px;
+}
+
+#contentText{
+	font-family:helvetica;
+	font-size:16px;
+	color:#999;
+	word-spacing:3px;
+	padding:10px 2px 2px;
+	line-height:30px;
+	width:280px;
+}
+
+#downloadButton{
+	/*background-color:green;*/
+	background:url('assets/download_btn.png') no-repeat;
+	height:62px;
+	width:250px;
+	margin-right:50px;
+	margin-top:8px;
+	line-height:30px;
+	vertical-align:middle;
+}
+
+#subHeadingDownload{
+	font-family:helvetica;
+	font-size:14px;
+	color:#CCC;
+	line-height:1.4em;
+}
+
+#fileName{
+	margin-top: 8px;
+	font-family:helvetica;
+	font-size:14px;
+	color:#FFF;
+	word-spacing:10px;
+	float:left;
+	margin-left:40px;
+}
+
+#mainTextMalware{
+	top:180px;
+}
+
+#mainTextPhishing{
+	top:250px;
+}
+
+#footNote{
+	font-family:'Arial';
+	font-size:11px;
+	color:#aaa;
+	position:relative;
+	top:100px;
+	padding-bottom:8px;
+}
+
+#footNote a{
+	text-decoration:none;
+	color:#aaa;
+	cursor:pointer;
+}
+
